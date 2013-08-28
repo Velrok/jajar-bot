@@ -4,8 +4,9 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [xmpp-clj "0.3.1"]
-                 [org.clojure/clojure "1.5.0"]]
+                 [guns.cli/optparse "1.1.1"]
+                 [jivesoftware/smackx "3.1.0"]]
   :profiles {:dev {:dependencies [[speclj "2.5.0"]]}}
   :plugins [[speclj "2.5.0"]]
-  :test-paths ["spec/"])
+  :test-paths ["spec/"]
+  :main jajar-bot.core)
