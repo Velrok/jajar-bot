@@ -1,7 +1,8 @@
 (ns jajar-bot.core
   (:require [jajar-bot.xmpp :as xmpp]
             [guns.cli.optparse :refer [parse]]
-            [clojure.string :as s]))
+            [clojure.string :as s])
+  (:gen-class))
 
 
 (defn shows [& args]
